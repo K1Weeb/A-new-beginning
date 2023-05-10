@@ -33,10 +33,10 @@ class Start:
         self.hq_frame = Frame(self.main_frame, padx=10, pady=10, bg="#0A1428")
         self.hq_frame.grid(row=3)
 
-        self.help_button = Button(self.hq_frame, text="HELP", font="arial 10 bold")
+        self.help_button = Button(self.hq_frame, text="HELP", font="arial 10 bold", bg="#DED221")
         self.help_button.grid(row=0, column=0, padx=10, pady=10)
 
-        self.quit_button = Button(self.hq_frame, text="QUIT", font="arial 10 bold")
+        self.quit_button = Button(self.hq_frame, text="QUIT", font="arial 10 bold", bg="#ab1d17")
         self.quit_button.grid(row=0, column=1, padx=10, pady=10)
 
 
